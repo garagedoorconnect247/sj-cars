@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>S.L CARS | שבוע פוסטים לדוגמה</title>
+<style>
+@font-face{font-family:"Rubik";font-weight:700;font-display:swap;src:url(fonts/rubik-hebrew-700-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Rubik";font-weight:700;font-display:swap;src:url(fonts/rubik-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Rubik";font-weight:800;font-display:swap;src:url(fonts/rubik-hebrew-800-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Rubik";font-weight:800;font-display:swap;src:url(fonts/rubik-latin-800-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Heebo";font-weight:400;font-display:swap;src:url(fonts/heebo-hebrew-400-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Heebo";font-weight:400;font-display:swap;src:url(fonts/heebo-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+@font-face{font-family:"Heebo";font-weight:700;font-display:swap;src:url(fonts/heebo-hebrew-700-normal.woff2) format("woff2");unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Heebo";font-weight:700;font-display:swap;src:url(fonts/heebo-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+2000-206F;}
+/* A week of S.L CARS social posts laid out as phone-feed cards, in the site's graphite + racing-red */
+:root{--bg:#f3f3f1;--ink:#111214;--muted:#5b5e66;--line:#e2e2de;--red:#d4122f;--dark:#111214}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Heebo",Arial,sans-serif;overflow-x:clip}
+header{background:var(--dark);color:#fff;border-bottom:3px solid var(--red)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 max(16px,4vw)}
+header .wrap{padding-block:28px}
+.wm{font:800 26px "Rubik",Arial,sans-serif;direction:ltr;display:inline-block}.wm i{font-style:normal;color:var(--red)}
+h1{font:800 clamp(28px,4vw,44px)/1.1 "Rubik",Arial,sans-serif;margin:10px 0 8px}
+header p{margin:0;color:#c9cbd1;max-width:60ch}
+.plan{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.plan a{color:#fff;text-decoration:none;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:5px 14px;font-size:14px}
+.plan a b{color:#ff8a99}
+main .wrap{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:26px;padding-block:32px 60px;align-items:start}
+.post{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 26px rgba(17,18,20,.07)}
+.when{display:flex;justify-content:space-between;align-items:center;background:var(--dark);color:#fff;padding:8px 14px;font-size:14px}
+.when b{font-family:"Rubik",Arial,sans-serif}
+.when span{background:var(--red);border-radius:999px;padding:1px 10px;font-weight:700;font-size:13px}
+.ph{display:flex;align-items:center;gap:10px;padding:12px 14px}
+.av{width:38px;height:38px;border-radius:50%;background:var(--dark);color:#fff;display:grid;place-items:center;font:800 13px "Rubik",Arial,sans-serif;direction:ltr;box-shadow:0 0 0 2px #fff,0 0 0 4px var(--red)}
+.ph b{display:block;line-height:1.2}.ph small{color:var(--muted);font-size:13px}
+.media{position:relative;aspect-ratio:4/5;background:#ddd;overflow:hidden}
+.media img{width:100%;height:100%;object-fit:cover;display:block}
+.media.grid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;aspect-ratio:1/1}
+.tag{position:absolute;top:12px;right:12px;background:var(--red);color:#fff;font:800 15px "Rubik",Arial,sans-serif;padding:4px 12px;border-radius:6px}
+.band{position:absolute;inset:auto 0 0 0;background:linear-gradient(0deg,rgba(17,18,20,.92),rgba(17,18,20,0));color:#fff;padding:40px 16px 14px}
+.band b{display:block;font:800 22px/1.15 "Rubik",Arial,sans-serif}
+.band span{font-size:14px;color:#e2e3e6}
+.band .pr{float:left;font:800 22px "Rubik",Arial,sans-serif;color:#fff;background:var(--red);padding:2px 10px;border-radius:6px;margin-top:-4px}
+.cell{position:relative}.cell span{position:absolute;bottom:6px;right:6px;background:rgba(17,18,20,.82);color:#fff;font-size:12px;font-weight:700;padding:1px 8px;border-radius:4px}
+.cap{padding:12px 14px 6px;white-space:pre-line;font-size:15px}
+.cap .h{color:#1d4ed8}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 14px 14px;border-top:1px solid var(--line);margin-top:6px}
+.foot small{color:var(--muted)}
+button{font:inherit;font-weight:700;background:var(--dark);color:#fff;border:0;border-radius:8px;padding:9px 14px;cursor:pointer;min-height:40px}
+button.ok{background:#11803c}
+:focus-visible{outline:3px solid #1d4ed8;outline-offset:2px}
+footer{color:var(--muted);text-align:center;padding:0 16px 40px;font-size:14px}
+@media(max-width:600px){main .wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="wm">S.L <i>CARS</i></span>
+  <h1>שבוע פוסטים לדוגמה לפייסבוק ולאינסטגרם</h1>
+  <p>חמישה פוסטים מוכנים מהמלאי הנוכחי, אחד לכל יום עבודה. כל פוסט כולל תמונות, טקסט והאשטגים, ומתוזמן לשעה שבה הכי הרבה אנשים גוללים.</p>
+  <nav class="plan" aria-label="לוח השבוע">
+    <a href="#p1"><b>ראשון</b> · הגיע למגרש</a><a href="#p2"><b>שני</b> · רכב משפחתי</a><a href="#p3"><b>שלישי</b> · רכב ראשון + מימון</a><a href="#p4"><b>רביעי</b> · רכב חלומות</a><a href="#p5"><b>חמישי</b> · ההמלצות לסופ״ש</a>
+  </nav>
+</div></header>
+
+<main><div class="wrap" id="feed"></div></main>
+<footer>דוגמה שהוכנה עבור שירליאל סוכנות רכב · התמונות והפרטים מתוך המודעות ביד2</footer>
+
+<script>
+{
+const P = "https://img.yad2.co.il/Pic/";
+const TEL = "054-559-9136";
+const posts = [
+  { id:"p1", day:"ראשון", time:"19:30", type:"הגיע למגרש",
+    img:P+"202610/04/1_8/o/y2_1pa_010440_20261004093809.jpeg", tag:"חדש במגרש",
+    title:"זיקר 001 Krypton 2025", sub:"חשמלי · 544 כ״ס · 27,000 ק״מ · יד ראשונה", price:"₪269,000",
+    cap:`⚡ הגיע למגרש: זיקר 001 בדגם הכי מפואר – Krypton
+
+544 כ״ס, הנעה כפולה וטווח של 580 ק״מ.
+מתלי אוויר אקטיביים, מערכת שמע YAMAHA עם 12 רמקולים, תצוגה עילית, דלתות ואקום וגלגלי 22 אינץ׳.
+
+📍 2025 · יד ראשונה · 27,000 ק״מ
+💰 ₪269,000 · אפשרות ל-100% מימון וטרייד-אין
+
+📞 ${TEL} | שלחו "זיקר" בוואטסאפ ונשלח עוד תמונות`,
+    tags:"#זיקר #רכבחשמלי #SLCARS #שירליאלסוכנותרכב #קריתעקרון #רכביוקרה" },
+
+  { id:"p2", day:"שני", time:"20:00", type:"רכב משפחתי",
+    img:P+"202610/12/1_3/o/y2_1pa_010058_20261012145745.jpeg", tag:"35 אלף ק״מ בלבד",
+    title:"קיה ספורטז׳ Urban 2022", sub:"אוטומט · 156 כ״ס · יד שנייה", price:"₪119,000",
+    cap:`👨‍👩‍👧 מחפשים רכב משפחתי שלא מתפשר?
+
+קיה ספורטז׳ 2022 בצורה החדשה, עם 35 אלף ק״מ בלבד.
+פנסי לד, תא מטען חשמלי, מפתח חכם עם הנעה מהשלט, 3 מצבי נהיגה ולוח שעונים דיגיטלי.
+
+💰 ₪119,000 · עד 100% מימון · טרייד-אין על הרכב הישן
+
+📞 ${TEL}`,
+    tags:"#קיהספורטז #רכבמשפחתי #SLCARS #טרייד_אין #מימון_לרכב" },
+
+  { id:"p3", day:"שלישי", time:"13:00", type:"רכב ראשון + מימון",
+    img:P+"202506/05/1_8/o/y2_1pa_998024_20250605102729.jpeg", tag:"יד ראשונה",
+    title:"קיה פיקנטו EX 2019", sub:"אוטומט · 35,000 ק״מ · פרטית", price:"₪49,900",
+    cap:`🔑 הרכב הראשון שלכם מחכה כאן
+
+קיה פיקנטו EX 2019 – יד ראשונה פרטית עם 35 אלף ק״מ בלבד.
+מצלמת רוורס, מסך מולטימדיה, בקרת אקלים וגלגלי מגנזיום. חסכונית, אמינה ונוחה לחנייה.
+
+💡 אין לכם את כל הסכום? אצלנו אפשר עד 100% מימון.
+
+💰 ₪49,900
+📞 ${TEL}`,
+    tags:"#רכבראשון #קיהפיקנטו #רכבחסכוני #SLCARS #מימון_לרכב" },
+
+  { id:"p4", day:"רביעי", time:"20:30", type:"רכב חלומות",
+    img:P+"202610/14/1_3/o/y2_1pa_010269_20261014093730.jpeg", tag:"קיט ברבוס מלא",
+    title:"מרצדס G63 AMG 2022", sub:"585 כ״ס · יד ראשונה", price:"מחיר בטלפון",
+    cap:`🖤 יש רכבים, ויש את זה.
+
+מרצדס G63 AMG עם קיט ברבוס 800 מלא – גנט 24 שחור מט, פנים בירוק זוהר, גג כוכבים, מערכת שמע Burmester וכל התוספות.
+
+585 כ״ס · יד ראשונה פרטית
+
+לפרטים ולתיאום צפייה: 📞 ${TEL}`,
+    tags:"#GClass #G63 #ברבוס #מרצדס #רכביוקרה #SLCARS" },
+
+  { id:"p5", day:"חמישי", time:"18:00", type:"ההמלצות לסופ״ש", grid:[
+      [P+"202609/06/1_3/o/y2_1pa_010613_20260906085001.jpeg","ב.מ.וו X5 · ₪269,000"],
+      [P+"202607/12/1_3/o/y2_1pa_995219_20260712131823.jpeg","מאזדה CX-5 · ₪109,000"],
+      [P+"202512/04/1_8/o/y2_1pa_993723_20251204171521.jpeg","קורולה היברידית · ₪69,900"],
+      [P+"202607/12/1_8/o/y2_1pa_010060_20260712110420.jpeg","אוקטביה 2024 · ₪129,000"]],
+    cap:`📋 4 רכבים ששווה לראות לפני הסופ״ש
+
+1️⃣ ב.מ.וו X5 45e פלאג-אין 2020 – ₪269,000
+2️⃣ מאזדה CX-5 2022 – ₪109,000
+3️⃣ טויוטה קורולה היברידית 2019 – ₪69,900
+4️⃣ סקודה אוקטביה Style 2024, 14 אלף ק״מ – ₪129,000
+
+ועוד מעל 70 רכבים במגרשים בקרית עקרון ובגדרה.
+מגיעים מחר בבוקר? תאמו מראש 📞 ${TEL}
+(סגור בשבת)`,
+    tags:"#SLCARS #שירליאלסוכנותרכב #רכבים_למכירה #קריתעקרון #גדרה" }
+];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const media = p => p.grid
+  ? `<div class="media grid">${p.grid.map(g=>`<div class="cell"><img referrerpolicy="no-referrer" loading="lazy" src="${g[0]}" alt="${esc(g[1])}"><span>${esc(g[1])}</span></div>`).join("")}</div>`
+  : `<div class="media"><img referrerpolicy="no-referrer" loading="lazy" src="${p.img}" alt="${esc(p.title)}"><span class="tag">${esc(p.tag)}</span><div class="band"><span class="pr">${esc(p.price)}</span><b>${esc(p.title)}</b><span>${esc(p.sub)}</span></div></div>`;
+document.getElementById("feed").innerHTML = posts.map((p,i) => `
+  <article class="post" id="${p.id}" aria-label="פוסט ליום ${p.day}">
+    <div class="when"><b>יום ${p.day} · ${p.time}</b><span>${esc(p.type)}</span></div>
+    <div class="ph"><span class="av" aria-hidden="true">S.L</span><span><b>שירליאל סוכנות רכב</b><small>מתוזמן · פייסבוק + אינסטגרם</small></span></div>
+    ${media(p)}
+    <div class="cap">${esc(p.cap)}
+
+<span class="h">${esc(p.tags)}</span></div>
+    <div class="foot"><small>מוכן לפרסום</small><button type="button" data-i="${i}">העתקת הטקסט</button></div>
+  </article>`).join("");
+document.getElementById("feed").addEventListener("click", async e => {
+  const b = e.target.closest("button[data-i]"); if (!b) return;
+  const p = posts[+b.dataset.i];
+  try { await navigator.clipboard.writeText(p.cap + "\n\n" + p.tags); b.textContent = "הועתק ✓"; b.classList.add("ok"); }
+  catch (err) { b.textContent = "סמנו והעתיקו ידנית"; }
+  setTimeout(() => { b.textContent = "העתקת הטקסט"; b.classList.remove("ok"); }, 2000);
+});
+}
+</script>
+</body>
+</html>
