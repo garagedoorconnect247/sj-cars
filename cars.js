@@ -4,8 +4,8 @@
 const BUSINESS = {
   name: "S.L CARS",
   fullName: "שירליאל סוכנות רכב",
-  phone: "050-000-0000",
-  phoneIntl: "972500000000",
+  phone: "054-559-9136",
+  phoneIntl: "972545599136",
   city: "קרית עקרון",
   branches: ["קרית עקרון", "גדרה"],
 };
