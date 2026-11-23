@@ -1,8 +1,8 @@
-// SJ CARS – שירליאל סוכנות רכב
+// S.L CARS – שירליאל סוכנות רכב
 // Cars copied from the Yad2 dealer page (23/11/2026)
 
 const BUSINESS = {
-  name: "SJ CARS",
+  name: "S.L CARS",
   fullName: "שירליאל סוכנות רכב",
   phone: "050-000-0000",
   phoneIntl: "972500000000",
