@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SJ CARS | שירליאל סוכנות רכב – קרית עקרון וגדרה</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="SJ CARS – שירליאל סוכנות רכב. מעל 70 רכבים במלאי בקרית עקרון ובגדרה: משפחתיים, פנאי-שטח, חשמליים ורכבי יוקרה. אפשרות ל-100% מימון וטרייד-אין.">
+<style>
+@font-face{font-family:"Rubik";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/rubik-hebrew-500-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/rubik-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/rubik-hebrew-700-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/rubik-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:800;font-display:swap;src:url(fonts/rubik-hebrew-800-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Rubik";font-style:normal;font-weight:800;font-display:swap;src:url(fonts/rubik-latin-800-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/heebo-hebrew-400-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/heebo-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/heebo-hebrew-500-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/heebo-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/heebo-hebrew-700-normal.woff2) format("woff2");unicode-range:U+0307-0308,U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F;}
+@font-face{font-family:"Heebo";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/heebo-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}
+</style>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111214'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-weight='900' font-size='26' fill='%23fff'%3ESJ%3C/text%3E%3Crect x='14' y='48' width='36' height='4' fill='%23d4122f'/%3E%3C/svg%3E">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SJ CARS">
+<meta property="og:locale" content="he_IL">
+<meta property="og:title" content="SJ CARS | שירליאל סוכנות רכב">
+<meta property="og:description" content="SJ CARS – שירליאל סוכנות רכב. מעל 70 רכבים במלאי בקרית עקרון ובגדרה: משפחתיים, פנאי-שטח, חשמליים ורכבי יוקרה. אפשרות ל-100% מימון וטרייד-אין.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AutoDealer","name":"SJ CARS – שירליאל סוכנות רכב","alternateName":["שירליאל סוכנות רכב","SJ CARS"],"description":"SJ CARS – שירליאל סוכנות רכב. מעל 70 רכבים במלאי בקרית עקרון ובגדרה: משפחתיים, פנאי-שטח, חשמליים ורכבי יוקרה. אפשרות ל-100% מימון וטרייד-אין.","address":{"@type":"PostalAddress","addressLocality":"קרית עקרון","addressCountry":"IL"},"areaServed":["קרית עקרון","גדרה","רחובות"],"sameAs":["https://www.yad2.co.il/vehicles/agency/9639789/cars"]}</script>
+<link rel="stylesheet" href="a11y.css?v=2">
+<script>
+/* החלת הגדרות נגישות שמורות לפני ציור הדף */
+(function(){try{var s=JSON.parse(localStorage.getItem("hc-a11y")||"null");if(!s)return;var c=[];if(s.fs)c.push("a11y-fs-"+s.fs);if(s.color)c.push("a11y-"+s.color);["links","font","spacing","noanim","cursor"].forEach(function(k){if(s[k])c.push("a11y-"+k)});document.documentElement.className+=" "+c.join(" ");}catch(e){}})();
+</script>
+<style>
+/* Layout: night showroom — graphite and white, one racing-red accent, sharp corners */
+:root{
+  --bg:#f3f3f1;
+  --surface:#ffffff;
+  --ink:#111214;
+  --muted:#5b5e66;
+  --line:#e2e2de;
+  --plate:#d4122f;
+  --plate-ink:#ffffff;
+  --accent:#d4122f;
+  --dark:#111214;
+  --dark-2:#1b1d21;
+  --blue:#1d4ed8;
+  --wa:#11803c;
+  --display:"Rubik","Heebo",Arial,sans-serif;
+  --body:"Heebo",Arial,"Segoe UI",sans-serif;
+  --radius:6px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+body::after{content:"";display:block}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:800;letter-spacing:-.01em;line-height:1.2;text-wrap:balance;margin:0}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:6px}
+
+/* Header */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--dark)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--dark);color:#fff;border-bottom:3px solid var(--accent)}
+.top .wrap{display:flex;align-items:center;gap:20px;padding-block:12px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo-img{height:52px;width:auto;border-radius:10px;display:block}
+.foot-logo{height:72px;width:auto;border-radius:10px;display:block}
+@media (max-width:420px){.logo-img{height:44px}}
+.wordmark{display:flex;flex-direction:column;line-height:1;color:#fff;text-decoration:none}
+.wordmark b{font-family:var(--display);font-weight:800;font-size:28px;letter-spacing:.04em;direction:ltr}
+.wordmark b i{font-style:normal;color:var(--accent)}
+.wordmark small{font-size:12.5px;color:#b9bcc4;margin-top:4px;letter-spacing:.02em}
+nav.menu{display:flex;gap:4px;margin-inline-start:auto}
+nav.menu a{text-decoration:none;padding:8px 12px;font-weight:500;color:#c9cbd1;border-bottom:2px solid transparent}
+nav.menu a:hover,nav.menu a.on{color:#fff;border-bottom-color:var(--accent)}
+.top-call{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;background:var(--accent);color:#fff;padding:9px 16px;border-radius:var(--radius);white-space:nowrap}
+.top-call span{direction:ltr;unicode-bidi:isolate}
+@media (max-width:820px){
+  nav.menu{display:none}
+  .top-call{margin-inline-start:auto}
+}
+
+/* Mobile bottom nav */
+.mnav{display:none}
+@media (max-width:820px){
+  .mnav{display:flex;position:fixed;inset:auto 0 0 0;z-index:20;background:var(--surface);border-top:1px solid var(--line);padding:8px max(12px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));gap:8px}
+  .mnav a{flex:1;text-align:center;text-decoration:none;font-weight:700;padding:11px 6px;border-radius:10px}
+  body{padding-bottom:76px}
+  .float-wa{display:none!important}
+}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:inherit;font-weight:700;text-decoration:none;border-radius:var(--radius);padding:13px 22px;border:2px solid transparent;cursor:pointer}
+.btn-call{background:var(--accent);color:#fff}
+.btn-dark{background:var(--dark);color:#fff}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-ghost{border-color:var(--line);background:var(--surface)}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* Hero */
+.hero{position:relative;background:var(--dark);color:#fff;overflow:hidden;isolation:isolate}
+.hero-bg{position:absolute;inset:0;z-index:-1}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 60%;opacity:.42}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(270deg,rgba(17,18,20,.96) 0%,rgba(17,18,20,.78) 45%,rgba(17,18,20,.35) 100%)}
+.hero .wrap{padding-block:64px 0}
+.hero .kicker{display:inline-block;font-weight:700;letter-spacing:.12em;font-size:14px;color:#fff;border-inline-start:4px solid var(--accent);padding-inline-start:10px;margin-bottom:14px}
+.hero h1{font-size:clamp(34px,5.6vw,60px);max-width:14em;line-height:1.08}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{color:#d4d6db;font-size:19px;max-width:34em;margin:16px 0 26px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px}
+.hero .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);margin-top:48px;border-top:1px solid rgba(255,255,255,.14)}
+.fact{padding:20px 16px;border-inline-start:1px solid rgba(255,255,255,.14)}
+.fact:first-child{border-inline-start:0;padding-inline-start:0}
+.fact b{display:block;font-family:var(--display);font-weight:800;font-size:32px;line-height:1.1;color:#fff}
+.fact span{color:#b9bcc4;font-size:15px}
+@media (max-width:820px){.hero .wrap{padding-block:40px 0}.facts{grid-template-columns:1fr 1fr}.fact{border-inline-start:0;padding-inline-start:0;border-top:1px solid rgba(255,255,255,.14)}}
+.about-facts .fact{border-color:var(--line)}.about-facts .fact b{color:var(--ink)}.about-facts .fact span{color:var(--muted)}
+.about-facts{margin-top:0;border-top:0;grid-template-columns:1fr 1fr}
+
+/* Filters */
+.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px;background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);padding:16px;margin-bottom:18px;border-radius:var(--radius)}
+.filters label{display:grid;gap:4px;font-size:14px;font-weight:700;color:var(--muted)}
+.filters input,.filters select{font:inherit;font-size:16px;color:var(--ink);padding:10px 12px;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg);min-width:0}
+.res-line{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px;color:var(--muted);font-weight:500}
+.res-line b{color:var(--ink)}
+.link-btn{font:inherit;background:none;border:0;color:var(--accent);font-weight:700;text-decoration:underline;cursor:pointer;padding:4px}
+.more-wrap{display:flex;justify-content:center;margin-top:26px}
+@media (max-width:900px){.filters{grid-template-columns:1fr 1fr}.filters .f-q{grid-column:1/-1}}
+
+/* Section heads */
+.sec{padding-block:44px}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.sec-head h2{font-size:clamp(26px,3.4vw,36px)}
+.sec-head h2::after{content:"";display:block;width:44px;height:4px;background:var(--accent);margin-top:10px}
+.sec-head p{margin:4px 0 0;color:var(--muted)}
+.sort{display:flex;align-items:center;gap:8px;color:var(--muted);font-weight:600}
+.sort select{font:inherit;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+
+/* Car grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:20px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;text-decoration:none;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(17,18,20,.14)}
+.card:hover h3{color:var(--accent)}
+.card-img{aspect-ratio:4/3;background:#eef2f7;position:relative;overflow:hidden}
+.card-img img,.card-img svg{width:100%;height:100%;object-fit:cover}
+.card-year{position:absolute;top:0;right:0;background:var(--dark);color:#fff;font-weight:700;font-size:14px;padding:4px 12px;border-bottom-left-radius:var(--radius)}
+.card-loc{position:absolute;bottom:10px;left:10px;background:rgba(17,18,20,.78);color:#fff;font-size:13px;font-weight:500;padding:2px 10px;border-radius:999px}
+.card-body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.card h3{font-size:20px;transition:color .15s}
+.card .trim{color:var(--muted);font-size:14px;margin:-4px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .short{color:var(--accent);font-size:14px;font-weight:700;margin:0}
+.card.sold .card-img img,.collage.sold img{filter:grayscale(.7) brightness(.9)}
+/* "נמכר" sash across the photo, with a line above and below the word */
+.sold-band{position:absolute;left:-25%;right:-25%;top:50%;transform:translateY(-50%) rotate(-14deg);background:rgba(180,35,24,.93);box-shadow:0 6px 18px rgba(0,0,0,.35);padding:7px 0;display:flex;justify-content:center;pointer-events:none;z-index:2}
+.sold-band span{display:block;color:#fff;font-family:var(--display);font-weight:900;font-size:30px;line-height:1.1;letter-spacing:.12em;padding:3px 34px;border-top:3px solid #fff;border-bottom:3px solid #fff}
+.collage .sold-band span{font-size:clamp(30px,5vw,54px);border-width:4px;padding:4px 50px}
+.card.sold .price{color:#b42318}
+.sold-banner{background:#fdecea;border:1px solid #f5c2bd;color:#7a1a12;border-radius:var(--radius);padding:14px 18px;font-weight:700;margin:0 0 16px}
+.sold-banner a{color:inherit}
+.specs-line{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0}
+.chip{background:var(--bg);border-radius:4px;padding:2px 10px;font-size:14px;font-weight:600;color:var(--muted)}
+.price{font-family:var(--display);font-weight:700;font-size:24px;margin-top:auto;padding-top:10px;border-top:1px solid var(--line);font-variant-numeric:tabular-nums}
+.old-price{font-family:var(--body);font-size:.62em;font-weight:600;color:var(--muted);text-decoration-thickness:2px;margin-inline-start:6px;white-space:nowrap}
+.drop-tag{position:absolute;bottom:10px;right:10px;background:#0f7b4a;color:#fff;font-weight:800;font-size:14px;padding:3px 10px 3px 12px;border-radius:999px;display:flex;align-items:center;gap:4px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.drop-tag svg{width:14px;height:14px}
+.car-side .drop-note{color:#0f7b4a;font-weight:800;font-size:15px;margin-top:-6px}
+.price small{font-family:var(--body);font-size:14px;color:var(--muted);font-weight:600}
+
+/* Services */
+.svc{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.svc-item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px;border-top:3px solid var(--dark)}
+.svc-item h3{font-size:21px;margin-bottom:6px}
+.svc-item p{margin:0;color:var(--muted)}
+.svc-ico{width:44px;height:44px;border-radius:var(--radius);background:var(--dark);display:grid;place-items:center;margin-bottom:12px}
+.svc-ico svg{width:24px;height:24px}
+
+/* About / contact */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+.split > *{min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.prose p{margin:0 0 14px;max-width:62ch}
+.contact-list{list-style:none;margin:0 0 18px;padding:0;display:grid;gap:10px}
+.contact-list li{display:flex;gap:10px;align-items:center}
+.contact-list b{min-width:70px;color:var(--muted);font-weight:600}
+.ltr{direction:ltr;unicode-bidi:isolate}
+@media (max-width:820px){.split{grid-template-columns:1fr}}
+
+/* Car page */
+.crumbs{padding-block:18px 0;color:var(--muted);font-weight:600}
+.crumbs a{text-decoration:underline;color:var(--accent)}
+.car-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+/* Gallery collage: big photo + two stacked */
+.collage{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:8px;margin-top:14px;aspect-ratio:2.6/1;max-width:100%}
+.collage button{border:0;padding:0;margin:0;border-radius:var(--radius);overflow:hidden;background:#eef2f7;cursor:zoom-in;position:relative;min-height:0}
+.collage button:first-child{grid-row:1 / span 2}
+.collage img,.collage svg{width:100%;height:100%;object-fit:cover}
+.collage.one{grid-template-columns:1fr;grid-template-rows:1fr;aspect-ratio:16/9}
+.collage.one button:first-child{grid-row:auto}
+.collage.two{grid-template-rows:1fr}
+.collage.two button:first-child{grid-row:auto}
+.show-all{position:absolute;bottom:10px;right:10px;background:rgba(20,33,58,.85);color:#fff;font-weight:700;font-size:15px;padding:5px 12px;border-radius:8px}
+@media (max-width:700px){
+  .collage{grid-template-columns:1fr;grid-template-rows:auto;aspect-ratio:auto}
+  .collage button:first-child{grid-row:auto;aspect-ratio:4/3}
+  .collage button:not(:first-child){display:none}
+  .collage .show-all{display:block}
+}
+/* Car layout */
+.car{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:32px;padding-block:24px 56px;align-items:start}
+.car > *{min-width:0}
+.car-main{display:grid;gap:22px}
+.car-title h1{font-size:clamp(28px,3.6vw,38px)}
+.car-title p{margin:2px 0 0;font-size:19px;color:var(--muted)}
+.keystats{display:grid;grid-template-columns:repeat(3,1fr);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+.keystat{padding:16px 18px;border-inline-start:1px solid var(--line)}
+.keystat:first-child{border-inline-start:0}
+.keystat span{display:block;color:var(--muted);font-weight:600;font-size:15px}
+.keystat b{display:block;font-size:24px;font-variant-numeric:tabular-nums}
+.keystat small{color:var(--muted);font-size:14px}
+.block{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.block h2{font-size:23px;margin-bottom:12px}
+.desc p{margin:0;max-width:66ch;white-space:pre-line}
+.perks{display:grid;gap:16px}
+.perk{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:start}
+.perk-ico{width:44px;height:44px;border-radius:var(--radius);background:var(--dark);display:grid;place-items:center}
+.perk-ico svg{width:22px;height:22px}
+.perk b{display:block}
+.perk p{margin:0;color:var(--muted)}
+.details{display:grid;grid-template-columns:1fr 1fr;column-gap:32px}
+.details div{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+.details dt{color:var(--muted);font-weight:600}
+.details dd{margin:0;font-weight:700;text-align:end}
+@media (max-width:560px){.details{grid-template-columns:1fr}.keystat{padding:12px}.keystat b{font-size:20px}}
+.car-side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 90px);display:grid;gap:14px;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--accent);border-radius:var(--radius);padding:24px;box-shadow:0 10px 30px rgba(20,33,58,.08)}
+.car-price{font-family:var(--display);font-weight:800;font-size:40px;line-height:1.1;font-variant-numeric:tabular-nums}
+.car-side .btn{width:100%}
+.dealer-line{text-align:center;color:var(--muted);font-weight:600;padding-top:6px;border-top:1px solid var(--line)}
+@media (max-width:900px){.car{grid-template-columns:1fr}.car-side{position:static;order:-1}}
+/* Loan calculator */
+.calc{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:22px;align-items:start}
+.calc-fields{display:grid;gap:18px}
+.calc-field label{display:flex;justify-content:space-between;align-items:baseline;gap:10px;font-weight:700;margin-bottom:6px}
+.calc-field .num{display:flex;align-items:center;gap:6px}
+.calc-field input[type=number]{font:inherit;font-weight:700;width:130px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);text-align:center;font-variant-numeric:tabular-nums}
+.calc-field input[type=range]{width:100%;accent-color:var(--accent);height:28px}
+.calc-field .range-ends{display:flex;justify-content:space-between;color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums}
+.calc-out{background:var(--bg);border-radius:var(--radius);padding:20px;display:grid;gap:10px;text-align:center}
+.calc-out .big{font-family:var(--display);font-weight:800;color:var(--accent);font-size:40px;line-height:1.1;font-variant-numeric:tabular-nums}
+.calc-out dl{margin:0;display:grid;gap:6px;text-align:start}
+.calc-out dl div{display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--line);padding-top:6px;font-variant-numeric:tabular-nums}
+.calc-out dt{color:var(--muted);font-weight:600}
+.calc-out dd{margin:0;font-weight:700}
+.calc-note{margin:14px 0 0;color:var(--muted);font-size:14px;line-height:1.6;max-width:none}
+.calc-err{color:#b42318;font-weight:700;font-size:15px;margin:4px 0 0}
+@media (max-width:760px){.calc{grid-template-columns:1fr}}
+/* Lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(8,12,22,.94);display:grid;grid-template-rows:auto 1fr auto;padding:calc(10px + env(safe-area-inset-top,0px)) max(10px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px));color:#fff}
+.lb-top{display:flex;justify-content:space-between;align-items:center;font-weight:700}
+.lb-stage{display:flex;align-items:center;justify-content:center;min-height:0;position:relative}
+.lb-stage img{max-height:100%;max-width:100%;object-fit:contain;border-radius:8px}
+.lb button{font:inherit;color:#fff;background:rgba(255,255,255,.14);border:0;border-radius:999px;cursor:pointer}
+.lb-close{width:44px;height:44px;font-size:24px}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:26px}
+.lb-prev{right:6px}.lb-next{left:6px}
+
+.float-wa{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:calc(20px + env(safe-area-inset-left,0px));z-index:15;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.float-wa svg{width:30px;height:30px}
+
+footer{background:var(--dark);color:#b9bcc4;border-top:3px solid var(--accent)}
+footer .wrap{padding-block:28px;display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+footer a{color:#fff}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:30px;text-align:center;color:var(--muted)}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#app">דלג לתוכן הראשי</a>
+<div id="liveRegion" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="wordmark" href="#home" aria-label="SJ CARS שירליאל סוכנות רכב – דף הבית">
+      <b>SJ <i>CARS</i></b><small>שירליאל סוכנות רכב</small>
+    </a>
+    <nav class="menu" aria-label="תפריט ראשי">
+      <a href="#home" data-nav="home">רכבים במלאי</a>
+      <a href="#services" data-nav="services">שירותים</a>
+      <a href="#about" data-nav="about">אודות</a>
+      <a href="#contact" data-nav="contact">צור קשר</a>
+    </nav>
+    <a class="top-call" id="topCall" href="#" aria-label="התקשרו אלינו">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+      <span id="topPhone"></span>
+    </a>
+  </div>
+</header>
+
+<main id="app" tabindex="-1"><section class="sec"><div class="wrap"><h1>SJ CARS – שירליאל סוכנות רכב, קרית עקרון וגדרה</h1><p>מעל 70 רכבים במלאי: משפחתיים, פנאי-שטח, חשמליים ורכבי יוקרה. אפשרות ל-100% מימון וטרייד-אין. לתיאום צפייה התקשרו או שלחו הודעה בוואטסאפ.</p></div></section></main>
+
+<footer>
+  <div class="wrap">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap"><span class="wordmark" aria-hidden="true"><b>SJ <i>CARS</i></b></span><div><strong id="fName"></strong> · <span id="fCity"></span></div></div>
+    <div>טלפון: <a id="fPhone" class="ltr" href="#"></a></div>
+    <nav class="foot-links" aria-label="מידע משפטי">
+      <a href="#accessibility">הצהרת נגישות</a>
+      <a href="#privacy">מדיניות פרטיות ועוגיות</a>
+      <button type="button" onclick="window.hcShowCookieBar &amp;&amp; window.hcShowCookieBar()">הגדרות עוגיות</button>
+    </nav>
+    <div>© <span id="fYear"></span> כל הזכויות שמורות</div>
+  </div>
+</footer>
+
+<a class="float-wa" id="floatWa" href="#" target="_blank" rel="noopener" aria-label="שלחו הודעת וואטסאפ">
+  <svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5.3-.5v-.5c-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6a1.1 1.1 0 0 0-.8.4 3.4 3.4 0 0 0-1 2.5 5.9 5.9 0 0 0 1.2 3.1 13.4 13.4 0 0 0 5.2 4.6c.7.3 1.3.5 1.7.6a4.2 4.2 0 0 0 1.9.1 3.1 3.1 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c-.1-.1-.3-.2-.6-.3zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 1 1 8.3 4.6zm8.4-18.2A11.8 11.8 0 0 0 1.8 17.9L.1 24l6.3-1.6A11.8 11.8 0 0 0 23.8 12a11.7 11.7 0 0 0-3.4-8.4z"/></svg>
+</a>
+
+<nav class="mnav" aria-label="פעולות מהירות">
+  <a id="mCall" class="btn-call" href="#">התקשרו</a>
+  <a id="mWa" class="btn-wa" href="#" target="_blank" rel="noopener">וואטסאפ</a>
+</nav>
+
+<script src="cars.js?v=1"></script>
+<script>
+(function(){
+  var B = BUSINESS;
+  var tel = "tel:+" + B.phoneIntl;
+  function waLink(text){ return "https://wa.me/" + B.phoneIntl + "?text=" + encodeURIComponent(text); }
+  function dropped(c){ return !c.sold && c.price && c.oldPrice && c.oldPrice > c.price; }
+  function priceText(c){
+    if (!c.price) return '<span style="font-size:.75em">מחיר בטלפון</span>';
+    return "₪" + fmt(c.price) + (dropped(c) ? ' <s class="old-price"><span class="sr-only">במקום </span>₪' + fmt(c.oldPrice) + '</s>' : '');
+  }
+  function inStock(){ return CARS.filter(function(c){ return !c.sold; }).length; }
+  function fmt(n){ return Number(n).toLocaleString("he-IL"); }
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+
+  var ICON_CALL = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>';
+  var ICON_WA = document.querySelector("#floatWa svg").outerHTML.replace('fill="#fff"','fill="currentColor"');
+
+  // Placeholder drawing for a car with no photos yet
+  function placeholder(c){
+    return '<svg viewBox="0 0 400 300" role="img" aria-label="אין עדיין תמונה לרכב זה">' +
+      '<rect width="400" height="300" fill="#eef2f7"/>' +
+      '<path d="M70 190 q8-46 52-52 l40-34 q14-10 34-10 h56 q22 0 36 16 l30 30 q42 4 50 30 v20 h-298z" fill="#cfd8e6"/>' +
+      '<path d="M172 108 h40 v34 h-72z M222 108 h30 q14 0 24 12 l20 22 h-74z" fill="#ffffff" opacity=".8"/>' +
+      '<circle cx="128" cy="200" r="26" fill="#14213a"/><circle cx="128" cy="200" r="11" fill="#cfd8e6"/>' +
+      '<circle cx="290" cy="200" r="26" fill="#14213a"/><circle cx="290" cy="200" r="11" fill="#cfd8e6"/>' +
+      '<rect x="150" y="238" width="100" height="26" rx="4" fill="#d4122f" stroke="#111214" stroke-width="2"/>' +
+      '<text x="200" y="257" text-anchor="middle" font-family="Assistant,Arial" font-weight="800" font-size="15" fill="#ffffff">תמונה בקרוב</text>' +
+    '</svg>';
+  }
+  function cover(c){ return c.images && c.images.length ? '<img referrerpolicy="no-referrer" src="' + esc(c.images[0]) + '" alt="" loading="lazy">' : placeholder(c); }
+
+  // Static bits
+  document.getElementById("topCall").href = tel;
+  document.getElementById("topPhone").textContent = B.phone;
+  document.getElementById("mCall").href = tel;
+  document.getElementById("mWa").href = waLink("שלום, הגעתי מהאתר של " + B.name);
+  document.getElementById("floatWa").href = waLink("שלום, הגעתי מהאתר של " + B.name);
+  document.getElementById("fName").textContent = B.fullName;
+  document.getElementById("fCity").textContent = B.branches.join(" · ");
+  var fp = document.getElementById("fPhone"); fp.textContent = B.phone; fp.href = tel;
+  document.getElementById("fYear").textContent = new Date().getFullYear();
+
+  var app = document.getElementById("app");
+  var sortMode = "new";
+
+  function sorted(){
+    var list = CARS.slice();
+    if (sortMode === "low") list.sort(function(a,b){ return (a.price || 1e12) - (b.price || 1e12); });
+    else if (sortMode === "high") list.sort(function(a,b){ return (b.price || 0) - (a.price || 0); });
+    else if (sortMode === "year") list.sort(function(a,b){ return b.year - a.year; });
+    else if (sortMode === "km") list.sort(function(a,b){ return a.km - b.km; });
+    return list.filter(function(c){ return !c.sold; }).concat(list.filter(function(c){ return c.sold; }));
+  }
+
+  function cardHTML(c){
+    return '<a class="card' + (c.sold ? ' sold' : '') + '" href="#car-' + esc(c.id) + '">' +
+      '<div class="card-img">' + cover(c) + '<span class="card-year">' + esc(c.year) + '</span>' + (c.location ? '<span class="card-loc">' + esc(c.location) + '</span>' : '') + (c.sold ? '<span class="sold-band" aria-hidden="true"><span>נמכר</span></span>' : '') + (dropped(c) ? '<span class="drop-tag"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M5 12l7 7 7-7" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>ירד במחיר</span>' : '') + '</div>' +
+      '<div class="card-body">' +
+        '<h3>' + esc(c.title) + '</h3>' +
+        (c.trim ? '<p class="trim">' + esc(c.trim) + '</p>' : '') +
+        '<p class="short">' + esc(c.short) + '</p>' +
+        '<div class="specs-line">' +
+          '<span class="chip">' + fmt(c.km) + ' ק״מ</span>' +
+          '<span class="chip">יד ' + esc(c.hand) + '</span>' +
+          '<span class="chip">' + esc(c.gearbox) + '</span>' +
+        '</div>' +
+        '<div class="price">' + (c.sold ? 'נמכר' : priceText(c) + (c.priceNote ? ' <small>' + esc(c.priceNote) + '</small>' : '')) + '</div>' +
+      '</div></a>';
+  }
+
+  function servicesHTML(){
+    var items = [
+      ["מלאי של מעל 70 רכבים","משפחתיים, פנאי-שטח, 7 מקומות, חשמליים ורכבי יוקרה – הכול במקום אחד.",'<path d="M5 16l1.5-5A2 2 0 0 1 8.4 9.5h7.2a2 2 0 0 1 1.9 1.5L19 16M4 16h16v3H4zM7 19v1.5M17 19v1.5" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>'],
+      ["טרייד-אין","מביאים את הרכב הישן, מקבלים הערכה הוגנת ומקזזים מהמחיר.",'<path d="M4 8h13l-3-3M20 16H7l3 3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>'],
+      ["עד 100% מימון","מסלולי מימון גמישים, כולל אפשרות למימון מלא של הרכב.",'<path d="M3 7h18v10H3zM3 11h18M7 15h3" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>'],
+      ["העברת בעלות וליווי","טיפול בכל הניירת והעברת הבעלות, בלי כאב ראש.",'<path d="M7 3h7l4 4v14H7zM14 3v4h4M10 13l2 2 4-4" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>']
+    ];
+    return '<div class="svc">' + items.map(function(i){
+      return '<div class="svc-item"><div class="svc-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + i[2] + '</svg></div><h3>' + i[0] + '</h3><p>' + i[1] + '</p></div>';
+    }).join("") + '</div>';
+  }
+
+  function contactHTML(){
+    return '<section class="sec" id="contactSec"><div class="wrap"><div class="split">' +
+      '<div class="prose"><h2 style="font-size:clamp(26px,3.4vw,34px);margin-bottom:12px">ראיתם רכב שמעניין אתכם?</h2>' +
+        '<p>התקשרו או שלחו הודעה בוואטסאפ. נשמח לתאם נסיעת מבחן, לשלוח תמונות נוספות ולענות על כל שאלה.</p></div>' +
+      '<div class="panel"><ul class="contact-list">' +
+        '<li><b>טלפון</b><a class="ltr" href="' + tel + '">' + esc(B.phone) + '</a></li>' +
+        '<li><b>סניפים</b><span>' + esc(B.branches.join(" · ")) + '</span></li>' +
+        '<li><b>שעות</b><span>א׳–ה׳ ושישי בבוקר · סגור בשבת</span></li>' +
+      '</ul><div class="car-actions">' +
+        '<a class="btn btn-call" href="' + tel + '">' + ICON_CALL + 'התקשרו</a>' +
+        '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink("שלום, הגעתי מהאתר של " + B.name) + '">' + ICON_WA + 'וואטסאפ</a>' +
+      '</div></div>' +
+    '</div></div></section>';
+  }
+
+  function aboutText(){
+    return '<p>' + esc(B.name) + ' – ' + esc(B.fullName) + ' היא סוכנות רכב עם מגרשים בקרית עקרון ובגדרה. במלאי שלנו יש כל הזמן מעל 70 רכבים: מרכבים קטנים וחסכוניים, דרך משפחתיים ורכבי 7 מקומות, ועד רכבים חשמליים ורכבי יוקרה.</p>' +
+      '<p>אצלנו אפשר לסגור הכול במקום אחד: מימון של עד 100% מערך הרכב, טרייד-אין לרכב הישן שלכם והעברת בעלות. כל רכב מוצג עם תמונות אמיתיות ופרטים מלאים, ואתם מוזמנים לבדוק אותו במכון לפי בחירתכם.</p>';
+  }
+
+
+  // ===== מחשבון הלוואה (לוח שפיצר) =====
+  var CALC_DEFAULT = { amount: 80000, months: 60, rate: 7.5 };
+  function calcBlock(price, carName){
+    var amt = price ? Math.round(price * 0.8 / 1000) * 1000 : CALC_DEFAULT.amount;
+    amt = Math.min(Math.max(amt, 5000), 500000);
+    return '<section class="block" aria-labelledby="calcTitle" data-car="' + esc(carName || "") + '">' +
+      '<h2 id="calcTitle">מחשבון הלוואה לרכב</h2>' +
+      '<div class="calc">' +
+        '<div class="calc-fields">' +
+          field("calcAmount", "סכום ההלוואה (₪)", amt, 5000, 500000, 1000, "₪5,000", "₪500,000") +
+          field("calcMonths", "תקופה (חודשים)", CALC_DEFAULT.months, 12, 100, 1, "12", "100") +
+          field("calcRate", "ריבית שנתית (%)", CALC_DEFAULT.rate, 0, 20, 0.1, "0%", "20%") +
+        '</div>' +
+        '<div class="calc-out">' +
+          '<div>החזר חודשי משוער</div>' +
+          '<div class="big" id="calcMonthly" aria-live="polite" aria-atomic="true">—</div>' +
+          '<dl><div><dt>סך ריבית</dt><dd id="calcInterest">—</dd></div><div><dt>סך כל ההחזרים</dt><dd id="calcTotal">—</dd></div></dl>' +
+          '<a class="btn btn-wa" id="calcWa" target="_blank" rel="noopener" href="#">' + ICON_WA + 'לבדיקת אפשרויות מימון</a>' +
+        '</div>' +
+      '</div>' +
+      '<p class="calc-note"><strong>הבהרה:</strong> המחשבון מיועד להמחשה בלבד ואינו מהווה הצעה, התחייבות למתן הלוואה או ייעוץ פיננסי. החישוב מבוסס על לוח סילוקין שפיצר בריבית שנתית קבועה ועל הנתונים שהוזנו, ואינו כולל עמלות, הצמדה למדד, ביטוחים או עלויות נוספות. תנאי ההלוואה בפועל, לרבות הריבית וגובה ההחזר, ייקבעו על ידי הגוף המממן בלבד ובכפוף לבדיקת זכאות ואישור אשראי. ' + esc(B.name) + ' אינה גוף מממן. אי עמידה בפירעון ההלוואה עלולה לגרור חיוב בריבית פיגורים והליכי הוצאה לפועל.</p>' +
+    '</section>';
+  }
+  function field(id, label, val, min, max, step, lo, hi){
+    return '<div class="calc-field">' +
+      '<label for="' + id + '"><span>' + label + '</span></label>' +
+      '<div class="num"><input type="number" id="' + id + '" inputmode="decimal" min="' + min + '" max="' + max + '" step="' + step + '" value="' + val + '" aria-describedby="' + id + 'Err"></div>' +
+      '<input type="range" id="' + id + 'Range" min="' + min + '" max="' + max + '" step="' + step + '" value="' + val + '" aria-label="' + label + ' – מחוון" tabindex="-1">' +
+      '<div class="range-ends" aria-hidden="true"><span>' + lo + '</span><span>' + hi + '</span></div>' +
+      '<p class="calc-err" id="' + id + 'Err" role="alert"></p>' +
+    '</div>';
+  }
+  function bindCalc(){
+    var box = app.querySelector('[aria-labelledby="calcTitle"]');
+    if (!box) return;
+    var ids = ["calcAmount","calcMonths","calcRate"];
+    var limits = { calcAmount:[5000,500000,"סכום הלוואה"], calcMonths:[12,100,"תקופה בחודשים"], calcRate:[0,20,"ריבית שנתית"] };
+    function val(id){ return parseFloat(document.getElementById(id).value); }
+    function money(n){ return "₪" + Math.round(n).toLocaleString("he-IL"); }
+    function calc(){
+      var ok = true;
+      ids.forEach(function(id){
+        var v = val(id), L = limits[id], err = document.getElementById(id + "Err"), inp = document.getElementById(id);
+        if (isNaN(v) || v < L[0] || v > L[1]){ ok = false; err.textContent = "יש להזין " + L[2] + " בין " + L[0].toLocaleString("he-IL") + " ל-" + L[1].toLocaleString("he-IL") + "."; inp.setAttribute("aria-invalid","true"); }
+        else { err.textContent = ""; inp.removeAttribute("aria-invalid"); }
+      });
+      var out = document.getElementById("calcMonthly"), ti = document.getElementById("calcInterest"), tt = document.getElementById("calcTotal");
+      if (!ok){ out.textContent = "—"; ti.textContent = "—"; tt.textContent = "—"; return; }
+      var P = val("calcAmount"), n = Math.round(val("calcMonths")), r = val("calcRate") / 100 / 12;
+      var m = r === 0 ? P / n : P * r / (1 - Math.pow(1 + r, -n));
+      out.textContent = money(m); tt.textContent = money(m * n); ti.textContent = money(m * n - P);
+      var car = box.getAttribute("data-car");
+      document.getElementById("calcWa").href = waLink("שלום, " + (car ? "לגבי " + car + " – " : "") + "אשמח לבדוק אפשרויות מימון: הלוואה של " + money(P) + " ל-" + n + " חודשים.");
+    }
+    ids.forEach(function(id){
+      var num = document.getElementById(id), rng = document.getElementById(id + "Range");
+      num.addEventListener("input", function(){ if (num.value !== "") rng.value = num.value; calc(); });
+      rng.addEventListener("input", function(){ num.value = rng.value; calc(); });
+    });
+    calc();
+  }
+
+  // ===== Filters =====
+  var PAGE = 24, shown = PAGE;
+  var F = { q:"", make:"", body:"", fuel:"", max:"" };
+  var BODY_GROUPS = { suv:["פנאי-שטח","ג'יפ שטח קשוח"], sedan:["סדאן","ליפטבק"], hatch:["האצ'בק"], coupe:["קופה"], work:["וואן מסחרי","דאבל קבינה"] };
+  var FUEL_GROUPS = { petrol:["בנזין"], diesel:["דיזל"], hybrid:["היברידי בנזין","פלאג-אין בנזין"], ev:["חשמלי"] };
+  function filtered(){
+    var q = F.q.trim().toLowerCase();
+    return sorted().filter(function(c){
+      if (F.make && c.make !== F.make) return false;
+      if (F.body && BODY_GROUPS[F.body].indexOf(c.body) < 0) return false;
+      if (F.fuel && FUEL_GROUPS[F.fuel].indexOf(c.fuel) < 0) return false;
+      if (F.max && (!c.price || c.price > +F.max)) return false;
+      if (q && (c.title + " " + c.trim + " " + c.year + " " + c.color).toLowerCase().indexOf(q) < 0) return false;
+      return true;
+    });
+  }
+  function opt(v, label){ return '<option value="' + esc(v) + '">' + esc(label) + '</option>'; }
+  function filtersHTML(){
+    var makes = {}; CARS.forEach(function(c){ makes[c.make] = (makes[c.make] || 0) + 1; });
+    var makeOpts = Object.keys(makes).sort(function(a,b){ return a.localeCompare(b, "he"); }).map(function(m){ return opt(m, m + " (" + makes[m] + ")"); }).join("");
+    return '<form class="filters" role="search" aria-label="חיפוש רכב" onsubmit="return false">' +
+      '<label class="f-q">חיפוש חופשי<input type="search" id="fQ" placeholder="למשל: קורולה, X5, 2022" autocomplete="off"></label>' +
+      '<label>יצרן<select id="fMake">' + opt("", "כל היצרנים") + makeOpts + '</select></label>' +
+      '<label>סוג רכב<select id="fBody">' + opt("", "הכול") + opt("suv","פנאי-שטח / ג׳יפ") + opt("sedan","סדאן") + opt("hatch","האצ׳בק") + opt("coupe","קופה") + opt("work","מסחרי / טנדר") + '</select></label>' +
+      '<label>מנוע<select id="fFuel">' + opt("", "הכול") + opt("petrol","בנזין") + opt("diesel","דיזל") + opt("hybrid","היברידי / פלאג-אין") + opt("ev","חשמלי") + '</select></label>' +
+      '<label>מחיר עד<select id="fMax">' + opt("", "ללא הגבלה") + [50000,80000,100000,150000,200000,300000].map(function(n){ return opt(n, "₪" + fmt(n)); }).join("") + '</select></label>' +
+    '</form>';
+  }
+  function renderList(){
+    var list = filtered(), box = document.getElementById("carList");
+    var any = F.q || F.make || F.body || F.fuel || F.max;
+    box.innerHTML =
+      '<div class="res-line"><span><b>' + list.length + '</b> רכבים ' + (any ? 'מתאימים לחיפוש' : 'במלאי') + '</span>' +
+        '<span style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">' + (any ? '<button type="button" class="link-btn" id="fClear">ניקוי סינון</button>' : '') +
+        '<label class="sort" for="sortSel">מיון:<select id="sortSel">' +
+          '<option value="new">חדשים במלאי</option><option value="low">מחיר: מהנמוך</option><option value="high">מחיר: מהגבוה</option><option value="year">שנתון: מהחדש</option><option value="km">ק״מ: מהנמוך</option>' +
+        '</select></label></span></div>' +
+      (list.length ? '<div class="grid">' + list.slice(0, shown).map(cardHTML).join("") + '</div>' : '<div class="empty">לא מצאנו רכב שמתאים לחיפוש. נסו לשנות את הסינון, או שלחו לנו וואטסאפ ונמצא לכם רכב.</div>') +
+      (list.length > shown ? '<div class="more-wrap"><button type="button" class="btn btn-dark" id="moreBtn">הצגת עוד רכבים (' + (list.length - shown) + ')</button></div>' : '');
+    var sel = document.getElementById("sortSel"); sel.value = sortMode;
+    sel.addEventListener("change", function(){ sortMode = sel.value; shown = PAGE; renderList(); });
+    var more = document.getElementById("moreBtn");
+    if (more) more.addEventListener("click", function(){ var from = shown; shown += PAGE; renderList(); var cards = box.querySelectorAll(".card"); if (cards[from]) cards[from].focus(); });
+    var clr = document.getElementById("fClear");
+    if (clr) clr.addEventListener("click", function(){ F = { q:"", make:"", body:"", fuel:"", max:"" }; syncFilters(); shown = PAGE; renderList(); });
+    var live = document.getElementById("liveRegion"); if (live && any) live.textContent = list.length + " רכבים מתאימים";
+  }
+  function syncFilters(){
+    document.getElementById("fQ").value = F.q; document.getElementById("fMake").value = F.make;
+    document.getElementById("fBody").value = F.body; document.getElementById("fFuel").value = F.fuel; document.getElementById("fMax").value = F.max;
+  }
+  function bindFilters(){
+    syncFilters();
+    [["fQ","q","input"],["fMake","make","change"],["fBody","body","change"],["fFuel","fuel","change"],["fMax","max","change"]].forEach(function(x){
+      document.getElementById(x[0]).addEventListener(x[2], function(e){ F[x[1]] = e.target.value; shown = PAGE; renderList(); });
+    });
+  }
+  function heroImage(){
+    var c = CARS.filter(function(x){ return x.id === "0hu5cb7f"; })[0] || CARS[0];
+    return c && c.images[0] ? '<div class="hero-bg" aria-hidden="true"><img referrerpolicy="no-referrer" src="' + esc(c.images[0]) + '" alt=""></div>' : '';
+  }
+
+  function renderHome(){
+    app.innerHTML =
+      '<section class="hero">' + heroImage() + '<div class="wrap">' +
+        '<span class="kicker">' + esc(B.fullName) + '</span>' +
+        '<h1>הרכב הבא שלכם <em>כבר מחכה</em> במגרש</h1>' +
+        '<p>מעל 70 רכבים במלאי בקרית עקרון ובגדרה – משפחתיים, פנאי-שטח, חשמליים ורכבי יוקרה. מימון עד 100% וטרייד-אין במקום.</p>' +
+        '<div class="hero-actions"><a class="btn btn-call" href="#cars">לכל הרכבים במלאי</a>' +
+          '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink("שלום, הגעתי מהאתר של " + B.name) + '">' + ICON_WA + 'שלחו וואטסאפ</a>' +
+          '<a class="btn btn-ghost" href="' + tel + '">' + ICON_CALL + 'התקשרו</a></div>' +
+        '<div class="facts">' +
+          '<div class="fact"><b>' + inStock() + '</b><span>רכבים במלאי</span></div>' +
+          '<div class="fact"><b>100%</b><span>אפשרות מימון</span></div>' +
+          '<div class="fact"><b>✓</b><span>טרייד-אין במקום</span></div>' +
+          '<div class="fact"><b>2</b><span>מגרשים: קרית עקרון וגדרה</span></div>' +
+        '</div>' +
+      '</div></section>' +
+      '<section class="sec" id="cars"><div class="wrap">' +
+        '<div class="sec-head"><div><h2>הרכבים שלנו</h2><p>סננו לפי יצרן, סוג ומחיר. לחצו על רכב לפרטים מלאים ותמונות</p></div></div>' +
+        filtersHTML() + '<div id="carList"></div>' +
+      '</div></section>' +
+      '<section class="sec" style="padding-top:0"><div class="wrap">' + calcBlock(null, "") + '</div></section>' +
+      '<section class="sec" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">' +
+        '<div class="sec-head"><div><h2>למה לקנות אצלנו</h2></div><a class="btn btn-ghost" href="#services">כל השירותים</a></div>' +
+        servicesHTML() +
+      '</div></section>' +
+      contactHTML();
+    bindFilters();
+    renderList();
+    bindCalc();
+    var cta = app.querySelector('.hero a[href="#cars"]');
+    cta.addEventListener("click", function(e){ e.preventDefault(); document.getElementById("cars").scrollIntoView(); var q = document.getElementById("fQ"); q.focus({preventScroll:true}); });
+  }
+
+  function renderCar(id){
+    var c = CARS.filter(function(x){ return x.id === id; })[0];
+    if (!c){ app.innerHTML = '<div class="wrap sec"><div class="empty">הרכב הזה כבר נמכר או לא נמצא. <a href="#home">לכל הרכבים במלאי</a></div></div>'; return; }
+    var imgs = c.images || [];
+    var name = c.title + (c.trim ? " " + c.trim : "") + " " + c.year;
+    var msg = c.sold ? "שלום, ראיתי באתר את ה" + name + " שנמכר. יש לכם רכב דומה?" : "שלום, אני מתעניין ב" + name + (c.price ? " (₪" + fmt(c.price) + ")" : "") + " שראיתי באתר";
+    var tradeMsg = "שלום, אני מתעניין ב" + name + " ורוצה לברר על טרייד אין לרכב שלי";
+    function has(v){ return v !== undefined && v !== null && v !== "" && !(Array.isArray(v) && !v.length); }
+
+    // Gallery
+    var gallery;
+    if (!imgs.length){
+      gallery = '<div class="collage one"><button type="button" tabindex="-1" style="cursor:default">' + placeholder(c) + '</button></div>';
+    } else {
+      var shown = imgs.slice(0, 3);
+      var cls = shown.length === 1 ? " one" : shown.length === 2 ? " two" : "";
+      gallery = '<div class="collage' + cls + (c.sold ? ' sold' : '') + '">' + shown.map(function(src, i){
+        var label = (i === shown.length - 1 && imgs.length > 1) ? '<span class="show-all">הצגת ' + imgs.length + ' תמונות</span>' : '';
+        return '<button type="button" data-i="' + i + '" aria-label="פתיחת תמונה ' + (i+1) + '"><img referrerpolicy="no-referrer" src="' + esc(src) + '" alt="' + esc(c.title) + ' – תמונה ' + (i+1) + '"' + (i ? ' loading="lazy"' : '') + '>' + label + (c.sold && i === 0 ? '<span class="sold-band" aria-hidden="true"><span>נמכר</span></span>' : '') + '</button>';
+      }).join("") + '</div>';
+    }
+
+    // Key stats
+    var stats = '<div class="keystats">' +
+      '<div class="keystat"><span>שנה</span><b>' + esc(c.year) + '</b>' + (has(c.roadDate) ? '<small>עלייה לכביש ' + esc(c.roadDate) + '</small>' : '') + '</div>' +
+      '<div class="keystat"><span>ק״מ</span><b>' + fmt(c.km) + '</b>' + (has(c.kmLastTest) ? '<small>בטסט האחרון ' + fmt(c.kmLastTest) + '</small>' : '') + '</div>' +
+      '<div class="keystat"><span>יד</span><b>' + esc(c.hand) + '</b></div>' +
+    '</div>';
+
+    // Perks
+    var ICO_SHIELD = '<path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z" stroke="#ffffff" stroke-width="2" fill="none" stroke-linejoin="round"/>';
+    var ICO_WRENCH = '<path d="M14.5 6.5a4 4 0 0 0 5 5L12 19a2.1 2.1 0 0 1-3-3l7.5-7.5a4 4 0 0 0-2-2z" stroke="#ffffff" stroke-width="2" fill="none" stroke-linejoin="round"/>';
+    var ICO_CARD = '<path d="M3 6h18v12H3zM3 10h18" stroke="#ffffff" stroke-width="2" fill="none"/>';
+    var perks = [];
+    perks.push(["מימון", "אפשרות למימון של עד 100% מערך הרכב", ICO_CARD]);
+    perks.push(["טרייד-אין", "אפשר להחליף את הרכב הישן שלכם ולקזז מהמחיר", ICO_WRENCH]);
+    perks.push(["בדיקה", "מוזמנים לבדוק את הרכב במכון לפי בחירתכם", ICO_SHIELD]);
+    if (has(c.warranty)) perks.push(["אחריות", c.warranty, ICO_SHIELD]);
+    if (has(c.treatments)) perks.push(["טיפולים", c.treatments.join(" · "), ICO_WRENCH]);
+    if (has(c.services)) perks.push(["שירות", c.services.join(" · "), ICO_CARD]);
+    var perksHTML = perks.length ? '<section class="block"><h2>מה מקבלים אצלנו</h2><div class="perks">' + perks.map(function(p){
+      return '<div class="perk"><div class="perk-ico"><svg viewBox="0 0 24 24" aria-hidden="true">' + p[2] + '</svg></div><div><b>' + p[0] + '</b><p>' + esc(p[1]) + '</p></div></div>';
+    }).join("") + '</div></section>' : '';
+
+    // Details
+    var rows = [["מיקום הרכב",c.location],["טסט עד",c.test],["תאריך טסט אחרון",c.lastTest],["צבע",c.color],["בעלות מקורית",c.ownership],["תיבת הילוכים",c.gearbox],["סוג מנוע",c.fuel],["מרכב",c.body],["מושבים",c.seats],["כוח סוס",c.hp],["נפח מנוע",c.engine],["צריכת דלק משולבת",c.consumption],["קיבולת סוללה (קוט״ש)",c.battery],["שינויים מהדגם המקורי",c.changes]]
+      .filter(function(r){ return has(r[1]); });
+    var detailsHTML = rows.length ? '<section class="block"><h2>פרטים נוספים</h2><dl class="details">' + rows.map(function(r){ return '<div><dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd></div>'; }).join("") + '</dl></section>' : '';
+
+    app.innerHTML =
+      '<div class="wrap"><div class="crumbs"><a href="#home">רכבים במלאי</a> › ' + esc(c.title) + '</div>' +
+      (c.sold ? '<div class="sold-banner" role="status">הרכב הזה נמכר. מחפשים רכב דומה? דברו איתנו או <a href="#home">ראו את הרכבים במלאי</a>.</div>' : '') +
+      gallery +
+      '<div class="car">' +
+        '<div class="car-main">' +
+          '<div class="car-title"><h1>' + esc(c.title) + '</h1>' + (has(c.trim) ? '<p>' + esc(c.trim) + '</p>' : '') + '</div>' +
+          stats +
+          (has(c.description) ? '<section class="block desc"><h2>על הרכב</h2><p>' + esc(c.description) + '</p></section>' : '') +
+          perksHTML + detailsHTML + (c.sold ? '' : calcBlock(c.price, c.title + " " + c.year)) +
+        '</div>' +
+        '<aside class="car-side">' +
+          '<div class="car-price">' + (c.sold ? '<span style="color:#b42318">נמכר</span>' : priceText(c)) + (c.priceNote ? '<small style="display:block;font-family:var(--body);font-size:15px;color:var(--muted)">' + esc(c.priceNote) + '</small>' : '') + '</div>' +
+          (dropped(c) ? '<div class="drop-note">ירד במחיר – חיסכון של ₪' + fmt(c.oldPrice - c.price) + '</div>' : '') +
+          '<a class="btn btn-wa" target="_blank" rel="noopener" href="' + waLink(msg) + '">' + ICON_WA + (c.sold ? 'מחפשים רכב דומה? וואטסאפ' : 'יצירת קשר בוואטסאפ') + '</a>' +
+          '<a class="btn btn-call" href="' + tel + '">' + ICON_CALL + '<span>התקשרו <span class="ltr">' + esc(B.phone) + '</span></span></a>' +
+          '<a class="btn btn-ghost" target="_blank" rel="noopener" href="' + waLink(tradeMsg) + '">טרייד אין</a>' +
+          '<div class="dealer-line">' + esc(B.fullName) + ' · ' + esc(c.location || B.city) + '</div>' +
+        '</aside>' +
+      '</div></div>';
+    document.getElementById("mWa").href = waLink(msg);
+    bindCalc();
+    document.title = c.title + " " + c.year + " | " + B.name;
+
+    app.querySelectorAll(".collage button[data-i]").forEach(function(b){
+      b.addEventListener("click", function(){ openLightbox(imgs, +b.dataset.i, c.title); });
+    });
+  }
+
+  function openLightbox(imgs, start, title){
+    var i = start; var prevFocus = document.activeElement;
+    var lb = document.createElement("div");
+    lb.className = "lb"; lb.setAttribute("role","dialog"); lb.setAttribute("aria-modal","true"); lb.setAttribute("aria-label","תמונות " + title);
+    lb.innerHTML = '<div class="lb-top"><span class="lb-count"></span><button type="button" class="lb-close" aria-label="סגירה">×</button></div>' +
+      '<div class="lb-stage"><img alt="" referrerpolicy="no-referrer"><button type="button" class="lb-nav lb-prev" aria-label="התמונה הקודמת">›</button><button type="button" class="lb-nav lb-next" aria-label="התמונה הבאה">‹</button></div><div></div>';
+    document.body.appendChild(lb);
+    document.body.style.overflow = "hidden";
+    var img = lb.querySelector("img"), count = lb.querySelector(".lb-count");
+    function show(){ img.src = imgs[i]; img.alt = title + " – תמונה " + (i+1); count.textContent = (i+1) + " / " + imgs.length; }
+    function go(d){ i = (i + d + imgs.length) % imgs.length; show(); }
+    function close(){ document.removeEventListener("keydown", key); lb.remove(); document.body.style.overflow = ""; if (prevFocus && prevFocus.focus) prevFocus.focus(); }
+    function key(e){ if (e.key === "Tab"){ var f = [].slice.call(lb.querySelectorAll("button")).filter(function(b){ return !b.hidden; }); var k = f.indexOf(document.activeElement); e.preventDefault(); f[(k + (e.shiftKey ? -1 : 1) + f.length) % f.length].focus(); return; } if (e.key === "Escape") close(); else if (e.key === "ArrowLeft") go(1); else if (e.key === "ArrowRight") go(-1); }
+    lb.querySelector(".lb-close").onclick = close;
+    lb.querySelector(".lb-prev").onclick = function(){ go(-1); };
+    lb.querySelector(".lb-next").onclick = function(){ go(1); };
+    lb.addEventListener("click", function(e){ if (e.target === lb || e.target.classList.contains("lb-stage")) close(); });
+    var sx = null;
+    lb.addEventListener("touchstart", function(e){ sx = e.touches[0].clientX; }, {passive:true});
+    lb.addEventListener("touchend", function(e){ if (sx === null) return; var dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 40) go(dx > 0 ? 1 : -1); sx = null; });
+    document.addEventListener("keydown", key);
+    if (imgs.length < 2) lb.querySelectorAll(".lb-nav").forEach(function(b){ b.hidden = true; });
+    show();
+    lb.querySelector(".lb-close").focus();
+  }
+
+  function renderServices(){
+    app.innerHTML = '<section class="sec"><div class="wrap"><div class="sec-head"><div><h2>השירותים שלנו</h2><p>הכול במקום אחד, מהבחירה ועד העברת הבעלות</p></div></div>' + servicesHTML() + '</div></section>' + contactHTML();
+  }
+  function renderAbout(){
+    app.innerHTML = '<section class="sec"><div class="wrap"><div class="split"><div class="prose"><h2 style="font-size:clamp(26px,3.4vw,34px);margin-bottom:14px">אודות ' + esc(B.name) + '</h2>' + aboutText() + '</div>' +
+      '<div class="panel"><div class="facts about-facts"><div class="fact"><b>' + inStock() + '</b><span>רכבים במלאי</span></div><div class="fact"><b>100%</b><span>אפשרות מימון</span></div><div class="fact"><b>2</b><span>מגרשים: קרית עקרון וגדרה</span></div><div class="fact"><b>✓</b><span>טרייד-אין</span></div></div></div>' +
+      '</div></div></section>' + contactHTML();
+  }
+
+
+  var UPDATED = "23/11/2026";
+  function renderAccessibility(){
+    app.innerHTML = '<section class="sec"><div class="wrap doc">' +
+      '<h1>הצהרת נגישות</h1><p class="meta">עודכנה לאחרונה: ' + UPDATED + '</p>' +
+      '<p>' + esc(B.name) + ' רואה חשיבות רבה במתן שירות שוויוני לכל הלקוחות, ובכלל זה לאנשים עם מוגבלות. השקענו מאמצים כדי שהאתר יהיה נוח, ברור ושמיש לכולם.</p>' +
+      '<h2>רמת הנגישות</h2>' +
+      '<p>האתר הונגש בהתאם לתקנות שוויון זכויות לאנשים עם מוגבלות (התאמות נגישות לשירות), התשע״ג-2013, ולתקן הישראלי ת״י 5568, המבוסס על הנחיות WCAG 2.0, ברמה AA.</p>' +
+      '<h2>מה עשינו כדי להנגיש את האתר</h2><ul>' +
+        '<li>האתר מותאם לשימוש במקלדת בלבד, עם סימון ברור של הרכיב שבפוקוס.</li>' +
+        '<li>קישור „דלג לתוכן הראשי” בתחילת כל עמוד.</li>' +
+        '<li>מבנה כותרות ואזורי עמוד (כותרת, ניווט, תוכן, תחתית) המזוהים על ידי קוראי מסך.</li>' +
+        '<li>טקסט חלופי לתמונות ולכפתורים שאין בהם טקסט.</li>' +
+        '<li>ניגודיות צבעים של 4.5:1 לפחות בין טקסט לרקע.</li>' +
+        '<li>קישורים שנפתחים בחלון חדש מסומנים לקוראי מסך.</li>' +
+        '<li>האתר מותאם לתצוגה בטלפונים ובמחשבים, ומאפשר הגדלה של עד 200% בלי לאבד תוכן.</li>' +
+        '<li>האתר מכבד את הגדרת „הפחתת תנועה” של מערכת ההפעלה.</li>' +
+      '</ul>' +
+      '<h2>תפריט הנגישות</h2>' +
+      '<p>בכל עמוד יש כפתור נגישות (סמל האדם הכחול בפינת המסך). אפשר לפתוח אותו גם בקיצור המקלדת Alt+A. בתפריט אפשר:</p><ul>' +
+        '<li>להגדיל את הטקסט בארבע רמות.</li><li>להפעיל ניגודיות גבוהה, היפוך צבעים או גווני אפור.</li>' +
+        '<li>להדגיש את כל הקישורים.</li><li>לעבור לגופן קריא ולהגדיל את הריווח בין השורות.</li>' +
+        '<li>לעצור אנימציות.</li><li>להגדיל את סמן העכבר.</li><li>לאפס את כל ההגדרות.</li>' +
+      '</ul><p>ההגדרות נשמרות בדפדפן שלכם לביקור הבא.</p>' +
+      '<h2>הסתייגויות</h2>' +
+      '<p>אנחנו ממשיכים לשפר את נגישות האתר. ייתכן שיימצאו בו רכיבים שעדיין אינם נגישים במלואם, למשל:</p><ul>' +
+        '<li>חלק מתמונות הרכבים מגיעות מאתר יד2 ומתוארות לפי שם הרכב בלבד.</li>' +
+        '<li>שירותים חיצוניים שהאתר מקשר אליהם, כמו וואטסאפ, אינם בשליטתנו.</li>' +
+      '</ul><p>אם נתקלתם בבעיה, נשמח שתספרו לנו ונטפל בה בהקדם.</p>' +
+      '<h2>הסדרי נגישות בפגישה לראיית רכב</h2>' +
+      '<p>צפייה ונסיעת מבחן במגרשים בקרית עקרון ובגדרה מתואמות מראש בטלפון. נשמח להתאים את ההגעה ואת הצגת הרכב לצרכי הנגישות שלכם.</p>' +
+      '<h2>פנייה לרכז הנגישות</h2>' +
+      '<div class="contact-card"><p style="margin:0 0 6px"><strong>רכז הנגישות:</strong> הנהלת ' + esc(B.fullName) + '</p>' +
+        '<p style="margin:0 0 6px"><strong>טלפון:</strong> <a class="ltr" href="' + tel + '">' + esc(B.phone) + '</a></p>' +
+        
+        '<p style="margin:0"><strong>וואטסאפ:</strong> <a target="_blank" rel="noopener" href="' + waLink("שלום, אני פונה בנושא נגישות האתר") + '">שליחת הודעה</a></p></div>' +
+      '<p>כדי שנוכל לטפל בפנייה, נשמח לקבל תיאור של הבעיה, את העמוד שבו נתקלתם בה ואת סוג הדפדפן או הטכנולוגיה המסייעת שבה השתמשתם.</p>' +
+    '</div></section>';
+  }
+  function renderPrivacy(){
+    app.innerHTML = '<section class="sec"><div class="wrap doc">' +
+      '<h1>מדיניות פרטיות ועוגיות</h1><p class="meta">עודכנה לאחרונה: ' + UPDATED + '</p>' +
+      '<p>מדיניות זו מסבירה איזה מידע נשמר כשאתם גולשים באתר של ' + esc(B.name) + ' וכיצד אנו משתמשים בו.</p>' +
+      '<h2>מי אחראי על המידע</h2><p>' + esc(B.fullName) + ' (' + esc(B.name) + '), ' + esc(B.city) + '. ליצירת קשר: טלפון <a class="ltr" href="' + tel + '">' + esc(B.phone) + '</a>.</p>' +
+      '<h2>מידע שאנחנו אוספים</h2>' +
+      '<p>האתר אינו כולל טפסים ואינו אוסף פרטים אישיים. כשאתם פונים אלינו בטלפון, בוואטסאפ או בדוא״ל, הפרטים שתמסרו (כמו שם ומספר טלפון) ישמשו אותנו רק כדי לחזור אליכם ולטפל בפנייה. אין חובה חוקית למסור לנו פרטים, והמסירה היא לפי רצונכם. לא נעביר אותם לאחרים, אלא אם נידרש לכך על פי דין.</p>' +
+      '<h2>עוגיות (Cookies) ואחסון מקומי</h2>' +
+      '<p>האתר אינו משתמש בעוגיות פרסום, מעקב או סטטיסטיקה. נשמרים בדפדפן שלכם בלבד, ואינם נשלחים אלינו:</p><ul>' +
+        '<li>הגדרות תפריט הנגישות שבחרתם.</li><li>הבחירה שלכם בהודעת העוגיות.</li></ul>' +
+      '<p>אפשר למחוק את המידע הזה בכל עת דרך הגדרות הדפדפן, או לשנות את הבחירה בקישור „הגדרות עוגיות” בתחתית העמוד. אם נוסיף בעתיד כלי סטטיסטיקה או פרסום, נעדכן את המדיניות ונבקש את הסכמתכם מראש.</p>' +
+      '<h2>שירותים חיצוניים</h2>' +
+      '<p>כדי להציג את האתר אנחנו נעזרים בשירותים חיצוניים, שעשויים לקבל את כתובת ה-IP של הדפדפן שלכם בהתאם למדיניות הפרטיות שלהם:</p><ul>' +
+        '<li>יד2 – הצגת חלק מתמונות הרכבים.</li>' +
+        '<li>GitHub Pages – אחסון האתר.</li><li>WhatsApp – כשאתם בוחרים לשלוח לנו הודעה.</li></ul>' +
+      '<h2>הזכויות שלכם</h2>' +
+      '<p>לפי חוק הגנת הפרטיות, התשמ״א-1981, אתם רשאים לבקש לעיין במידע שנשמר עליכם, ולבקש לתקן או למחוק אותו. לכל שאלה או בקשה אפשר לפנות אלינו בטלפון <a class="ltr" href="' + tel + '">' + esc(B.phone) + '</a>. נשיב לבקשה בתוך 30 יום.</p>' +
+      '<p><button type="button" class="btn btn-ghost" onclick="window.hcShowCookieBar && window.hcShowCookieBar()">שינוי הגדרות עוגיות</button></p>' +
+    '</div></section>';
+  }
+
+  var firstRender = true;
+  function afterRender(title){
+    document.title = title ? title + " | " + B.name : B.name + " | " + B.fullName + " – קרית עקרון וגדרה";
+    if (firstRender){ firstRender = false; return; }
+    var h = app.querySelector("h1, h2");
+    if (h){ h.setAttribute("tabindex","-1"); h.focus({preventScroll:true}); }
+    var live = document.getElementById("liveRegion");
+    if (live) live.textContent = "נטען עמוד: " + document.title;
+  }
+
+  function route(){
+    var h = (location.hash || "#home").slice(1);
+    document.getElementById("mWa").href = waLink("שלום, הגעתי מהאתר של " + B.name);
+    var nav = h.indexOf("car-") === 0 ? "home" : h;
+    document.querySelectorAll("[data-nav]").forEach(function(a){ a.classList.toggle("on", a.dataset.nav === nav); });
+    if (h === "app") return;
+    if (h.indexOf("car-") === 0){ renderCar(h.slice(4)); window.scrollTo(0,0); var t = document.title; firstRender ? (firstRender = false) : afterRender(t.split(" | ")[0]); return; }
+    var title = "";
+    if (h === "services"){ renderServices(); title = "שירותים"; }
+    else if (h === "about"){ renderAbout(); title = "אודות"; }
+    else if (h === "accessibility"){ renderAccessibility(); title = "הצהרת נגישות"; }
+    else if (h === "privacy"){ renderPrivacy(); title = "מדיניות פרטיות ועוגיות"; }
+    else if (h === "contact"){ renderHome(); afterRender("צור קשר"); document.getElementById("contactSec").scrollIntoView(); var ch = document.querySelector("#contactSec h2"); if (ch){ ch.setAttribute("tabindex","-1"); ch.focus({preventScroll:true}); } return; }
+    else renderHome();
+    afterRender(title);
+    if (h !== "cars") window.scrollTo(0,0);
+  }
+  window.addEventListener("hashchange", route);
+  route();
+})();
+</script>
+<script src="a11y.js?v=3"></script>
+</body>
+</html>
